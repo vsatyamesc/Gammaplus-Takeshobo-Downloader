@@ -11,3 +11,6 @@ on the folder directory run `pip install -r requirements.txt`
 - Input the Link to the Chapter and the directory to save.
 
 - Whoosh! The Chapter is downloaded.
+
+
+## Made with love by Me!
