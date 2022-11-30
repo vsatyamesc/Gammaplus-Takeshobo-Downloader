@@ -6,8 +6,8 @@
 on the folder directory run `pip install -r requirements.txt`
 
 ### Run the Code
-Use python to run the code.
+- Use python to run the code.
 
-Input the Link to the Chapter and the directory to save.
+- Input the Link to the Chapter and the directory to save.
 
-Whoosh! The Chapter is downloaded.
+- Whoosh! The Chapter is downloaded.
