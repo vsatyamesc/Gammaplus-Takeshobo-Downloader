@@ -26,7 +26,7 @@ class Image_Data:
             else:
                 self.img_start = self.img_start + 1
             x = re.findall("data-ptimg=",res.text)
-            self.img_end = len(x) + self.img_start - 1
+            self.img_end = len(x) + self.img_start #- 1
 
     def return_image_token_link(self):
         return [self.link +"/data/00{:02}.ptimg.json".format(i) for i in range(self.img_start,self.img_end)]
