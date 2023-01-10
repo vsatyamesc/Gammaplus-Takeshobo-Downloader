@@ -1,3 +1,4 @@
+# working Dec 23 2022
 # Gammaplus Takeshobo Downloader
 # Gammaplus 
 # Takeshobo
