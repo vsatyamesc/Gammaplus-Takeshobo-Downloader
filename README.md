@@ -1,5 +1,5 @@
 # Gammaplus-Takeshobo-Downloader
-
+### Updated : 27 January 2023
 ## How to Use
 
 ### Install Requirements
