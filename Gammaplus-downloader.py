@@ -1,4 +1,4 @@
-# working Dec 23 2022
+# Updated : 27 January 2023
 # Gammaplus Takeshobo Downloader
 # Gammaplus 
 # Takeshobo
@@ -17,6 +17,8 @@ class Image_Data:
         self.img_start = 0
         self.img_end = 0
         self.path = path
+        if(not os.path.exists(str(path))):
+            os.mkdir(str(path))
         os.chdir(path)
 
     def get_img_names(self) -> None:
@@ -50,7 +52,8 @@ class Image_Data:
             for i in range(64):
                 string = dataload["views"][0]["coords"][i]
                 list1 = re.split(r'[>+:,]', string)
-                crop_img = temp_img[(int(list1[2])-4):(int(list1[2])-4)+(int(list1[4])+8), (int(list1[1])-4):(int(list1[1])-4)+(int(list1[3])+8)]
+                #crop_img = temp_img[(int(list1[2])-4):(int(list1[2])-4)+(int(list1[4])+8), (int(list1[1])-4):(int(list1[1])-4)+(int(list1[3])+8)] #The old code
+                crop_img = temp_img[(int(list1[2])):(int(list1[2])-4)+(int(list1[4])+8), (int(list1[1])):(int(list1[1])-4)+(int(list1[3])+8)]
                 h = int(list1[5])
                 k = int(list1[6])
                 y,x = crop_img.shape[:2]
