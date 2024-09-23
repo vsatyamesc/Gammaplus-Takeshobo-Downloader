@@ -2,7 +2,7 @@
 # Gammaplus Takeshobo Downloader
 # Gammaplus 
 # Takeshobo
-# https://github.com/SatyamSSJ10
+# https://github.com/vsatyamesc
 
 import re
 import requests as req
